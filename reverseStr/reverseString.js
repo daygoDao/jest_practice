@@ -1,6 +1,7 @@
 const reverseString = (str) => {
-    const reversed = (String(str).split('').reverse().join(''));
-    return reversed
-}
+  return str == undefined
+    ? "invalid input"
+    : String(str).split("").reverse().join("");
+};
 
 module.exports = reverseString;
