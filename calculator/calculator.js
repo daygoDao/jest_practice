@@ -14,4 +14,8 @@ const div = (a, b) => {
   return a / b;
 };
 
-export { add, subtr, mult, div };
+const mod = (a, b) => {
+  return a % b;
+};
+
+export { add, subtr, mult, div, mod };
