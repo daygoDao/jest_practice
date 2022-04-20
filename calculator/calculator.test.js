@@ -16,6 +16,10 @@ test("divide 21 / 7 = 3", () => {
   expect(div(21, 7)).toBe(3);
 });
 
+test("divide 21 / 0 =  err", () => {
+  expect(div(21, 0)).toBe("cant divide by zero");
+});
+
 test("module 4 % 2 = 0", () => {
   expect(mod(4, 2)).toBe(0);
 });

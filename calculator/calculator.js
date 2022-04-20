@@ -11,7 +11,7 @@ const mult = (a, b) => {
 };
 
 const div = (a, b) => {
-  return a / b;
+  return b !== 0 ? a / b : "cant divide by zero";
 };
 
 const mod = (a, b) => {
